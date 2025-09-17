@@ -29,8 +29,7 @@ Each folder represents a **concept** with:
 ## How to Use
 1. Navigate to a concept folder
 2. Read the `README.md` to understand the concept
-3. Fill in the `*.java` file
-4. Run it with:
+3. Run it with:
 
     ```bash
     mvn spring-boot:run
