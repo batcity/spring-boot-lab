@@ -35,8 +35,7 @@ public class ServicesApplication implements CommandLineRunner {
         backgroundService.runFor60Seconds();
 
         // Can call other methods of the service as needed
-        System.out.println(backgroundService.getStatus());
-
+        System.out.println("Background service status: " + backgroundService.getStatus());
         System.out.println("Background service finished!");
     }
 }
