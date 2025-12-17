@@ -1,6 +1,6 @@
 # JWT Gateway Demo
 
-A lightweight Spring Boot system demonstrating JWT-based authentication and validation via an API Gateway.
+A lightweight Spring Boot system demonstrating JWT-based authentication and validation.
 
 ## Components
 | Service      | Port | Description                       |
