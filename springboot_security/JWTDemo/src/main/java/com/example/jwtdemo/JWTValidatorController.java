@@ -13,7 +13,7 @@ import java.security.Key;
 @RestController
 class JWTValidatorController {
 
-    // 🔐 Demo secret key (DO NOT hardcode in real apps)
+    // Demo secret key (DO NOT hardcode in real apps)
     private static final Key SIGNING_KEY =
             Keys.hmacShaKeyFor(
                     "super-secret-signing-key-longer-than-256-bits"
