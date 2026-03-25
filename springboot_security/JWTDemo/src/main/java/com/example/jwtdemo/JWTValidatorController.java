@@ -23,6 +23,8 @@ class JWTValidatorController {
 
     @GetMapping("/auth/validate")
     public String validate(@RequestHeader(value = "Authorization", required = false) String authHeader) {
+
+            // Note - use the authentication filter class to actually authenticate the request/check token validity
             if (authHeader == null) {
                 return "No token";
             }
