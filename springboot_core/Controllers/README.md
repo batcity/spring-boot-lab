@@ -93,7 +93,7 @@ Controller → Service → Repository → Model
 * Repository: database access
 * Model: data objects (entities/DTOs)
 
-### 🚀 Why Controller → Service → Repository → Model is the new standard
+### Why Controller → Service → Repository → Model is the new standard
 
 - **Clear separation of concerns**  
   Each layer has a single responsibility: controllers handle HTTP, services handle business logic, repositories handle database access, models hold data.

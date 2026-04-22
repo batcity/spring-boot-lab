@@ -25,6 +25,7 @@ class JWTValidatorController {
     public String validate(@RequestHeader(value = "Authorization", required = false) String authHeader) {
 
             // Note - use the authentication filter class to actually authenticate the request/check token validity
+            // we don't validate or look for auth tokens here
             if (authHeader == null) {
                 return "No token";
             }
